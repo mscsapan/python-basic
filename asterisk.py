@@ -1,3 +1,1 @@
-number = [10] * 7
-
-print(number)
+number = [9] * 8
