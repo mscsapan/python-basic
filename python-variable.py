@@ -18,3 +18,4 @@ if name == 'Mohammad' and name2 == 'Ali':
 
 if name is not "Ali":
     print(f'Name is not {name}')
+    
