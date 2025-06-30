@@ -13,3 +13,5 @@ mydict = {'name': 'John', 'age': 25.9, 'city': 'New York', 'country': 'USA'}
 
 # for key,value in mydict.items():
 #     print(f'{key} : {value}')
+
+print(f'The lenght of list is {len(mylist)}')
