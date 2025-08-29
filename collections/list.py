@@ -1,0 +1,1 @@
+fruits_name = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
