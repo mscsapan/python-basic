@@ -40,7 +40,7 @@ numbers = [1,2,3,5,9,0,8]
 #         new_list.append(square)
 
 
-# new_list = [x ** 2 for x in numbers]
+# new_list = [x ** 2 for x in numbers] #this is called list comprehesion
     
 # print(new_list)
 
