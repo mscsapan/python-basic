@@ -2,6 +2,9 @@
 '''
 True or 1 | False or 0 are same elements and trated as duplicate for set collection
 '''
+
+# important topics is join set
+
 fruits_name = {"apple", "banana", "cherry", "apple",True,1}
 
 # extendable_list = {"orange","melon", "mango"}
@@ -26,6 +29,18 @@ fruits_name.update(extendable_list)
 #     print(f'type {type(i)} - {i}')
 
 # print(f'after {fruits_name}')
+
+
+# Set operations
+# a = {1, 2, 3}
+# b = {3, 4}
+# a | b    # union -> {1, 2, 3, 4}
+# a & b    # intersection -> {3}
+# a - b    # difference -> {1, 2}
+# a ^ b    # symmetric difference -> {1, 2, 4}
+
+# Set comprehension
+# evens = {n for n in range(10) if n % 2 == 0}
 
 for i in dir(fruits_name):
     print(i)
