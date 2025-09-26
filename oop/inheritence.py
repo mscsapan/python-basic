@@ -29,6 +29,8 @@
 # print('hello bangladesh')
 
 
+
+#class attribute
 class Car:
     name = 'This is default name'
 
@@ -38,9 +40,14 @@ class Car:
 
     def change_name(self,name):
         self.name = name
+        
+    @staticmethod
+    def func_without_self():
+        return f'this is function without self parameters {Car.name}'
 
 
 car = Car('Macedes')
 car.change_name('Jack and Jhons')
 print(car.name)
 print(Car.name)
+print(car.func_without_self())
