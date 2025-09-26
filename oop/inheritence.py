@@ -10,21 +10,37 @@
 
 # p1 = Student('Ali',27,'Dhaka')
 
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+#
+# class Student(Person):
+#     def __init__(self, name, age):
+#         # Person.__init__(self,name,age)
+#         super().__init__(name, age)
+#
+#
+# p1 = Student('Ali', 27)
+#
+# print(p1.name)
+#
+# print('hello bangladesh')
 
-class Person:
-    def __init__(self, name, age):
+
+class Car:
+    name = 'This is default name'
+
+    def __init__(self,name):
+        Car.name = name
+
+
+    def change_name(self,name):
         self.name = name
-        self.age = age
 
 
-class Student(Person):
-    def __init__(self, name, age):
-        # Person.__init__(self,name,age)
-        super().__init__(name, age)
-
-
-p1 = Student('Ali', 27)
-
-print(p1.name)
-
-print('hello bangladesh')
+car = Car('Macedes')
+car.change_name('Jack and Jhons')
+print(car.name)
+print(Car.name)
