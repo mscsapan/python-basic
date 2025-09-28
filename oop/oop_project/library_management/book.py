@@ -2,19 +2,19 @@ class Book:
     def __init__(self, title, author):
         self.title = title
         self.author = author
-        self.is_available = True   # শুরুতে বই পাওয়া যাবে
+        self.is_available = True   # initially all books will be available
 
     def borrow(self):
         if self.is_available:
             self.is_available = False
-            print(f"✅ '{self.title}' বইটি ইস্যু করা হলো।")
+            print(f"✅ '{self.title}' The book is booked")
         else:
-            print(f"❌ '{self.title}' এখন পাওয়া যাচ্ছে না!")
+            print(f"❌ '{self.title}' Not available now")
 
     def return_book(self):
         self.is_available = True
-        print(f"📖 '{self.title}' ফেরত দেওয়া হলো!")
+        print(f"📖 '{self.title}' return to the library")
 
     def __str__(self):
-        status = "মজুদ আছে" if self.is_available else "ইস্যু হয়ে গেছে"
+        status = "Available" if self.is_available else "Booked"
         return f"{self.title} - {self.author} ({status})"

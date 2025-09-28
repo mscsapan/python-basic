@@ -11,11 +11,11 @@ class Library:
         self.__members.append(member)
 
     def show_books(self):
-        print("\n📚 লাইব্রেরির বইয়ের তালিকা:")
+        print("\n📚 List of library books:")
         for b in self.__books:
             print(b)
 
     def show_members(self):
-        print("\n👥 মেম্বার তালিকা:")
+        print("\n👥 Members list:")
         for m in self.__members:
             print(m)

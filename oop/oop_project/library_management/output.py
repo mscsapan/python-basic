@@ -43,3 +43,10 @@ m2.borrow_book(b1)
 # আপডেট অবস্থা
 lib.show_books()
 lib.show_members()
+
+
+# ✨ এখান থেকে শেখার বিষয়:
+# Encapsulation → Library এর ভিতরে data গোপন রাখা হয়েছে (__books, __members)।
+# Inheritance → Librarian এসেছে Person থেকে।
+# Polymorphism → একই __str__ মেথড আলাদা আলাদা ক্লাসে আলাদা স্টাইল দেখাচ্ছে।
+# Real-life mapping → বই, মেম্বার, লাইব্রেরিয়ান — একদম বাস্তব জীবনের মত সিস্টেম কপি হয়েছে।

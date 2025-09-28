@@ -8,4 +8,4 @@ class Librarian(Person):
 
     def add_book(self, library, book):
         library.add_book(book)
-        print(f"👩‍💼 {self.name} '{book.title}' লাইব্রেরিতে যোগ করলেন।")
+        print(f"👩‍💼 {self.name} '{book.title}' added to the library")
