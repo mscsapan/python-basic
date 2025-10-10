@@ -36,3 +36,7 @@ def key_val_func(a, b, /, *, c, d):
 
 result = key_val_func(10,4,c = 4, d = 5)
 print(result)
+
+number = range(1,11)
+
+print(number)
