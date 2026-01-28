@@ -1,3 +1,5 @@
+import time
+
 # number = 'Ali' ' '* 8
 
 # print(type(number))
@@ -11,9 +13,9 @@
 #     print(f'{key} - {value}')
 
 
-my_list = ['a','b','c','d','e','f','g']
+# my_list = ['a','b','c','d','e','f','g']
 
-my_tuple = tuple(my_list)
+# my_tuple = tuple(my_list)
 
 
 # for key, value in enumerate(my_list):
@@ -22,6 +24,21 @@ my_tuple = tuple(my_list)
 # for key, value in enumerate(my_tuple):
 #     print(f'{key} - {value} - {type(value)}')
 
-a, b, c , *d= my_tuple
+# a, b, c , *d= my_tuple
 
-print(type(d))
+# numbers = [1,2,4,6,7,8]
+
+# result = [n for n in numbers if n % 2 == 0]
+
+num = range(100)
+
+startTime = time.time()
+
+for i in num:
+    print(i)
+    
+# [print(n) for n in num]
+
+endTime = time.time()
+
+print(f'total time {endTime - startTime}')
