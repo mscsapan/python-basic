@@ -1,4 +1,4 @@
-# 1. Single-level: Direct parent-child (basic car example).
+# 1. Single-level: Direct parent-child (previous car example).
 # 2. Multi-level: Chain of inheritance (LivingBeing → Dog).
 # 3. Multiple: Child inherits from 2+ parents (Smartphone).
 # 4. Hierarchical: One parent → Many children (Shapes).
