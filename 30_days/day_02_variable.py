@@ -14,3 +14,7 @@ person_info = {
     'age': 26
 }
 
+print(first_name)
+print(last_name)
+print(country)
+
