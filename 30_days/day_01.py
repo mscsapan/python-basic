@@ -4,3 +4,4 @@ name = 'ali'
 #     print(i)
 
 print(name.upper())
+print(len(name))
